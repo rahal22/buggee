@@ -1,0 +1,22 @@
+{
+  "name": "buggee",
+  "scripts": {
+    "postdeploy": "bin/setup",
+    "pr-predestroy": "bin/teardown"
+  },
+  "env": {
+    "1741889756125237": {
+      "generator": "secret"
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "berikut/nodejs"
+    }
+  ]
+}
